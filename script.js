@@ -1,8 +1,8 @@
 /**
  * close renovate dashboard issues
  *
- * @param {import('@octoherd/octokit').Octokit} octokit
- * @param {import('@octokit/openapi-types').components["schemas"]["repository"]} repository
+ * @param {import('@octoherd/cli').Octokit} octokit
+ * @param {import('@octoherd/cli').Repository} repository
  */
 export async function script(octokit, repository) {
   const owner = repository.owner.login;
