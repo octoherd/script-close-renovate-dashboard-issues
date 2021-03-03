@@ -8,7 +8,7 @@
 git clone https://github.com/octoherd/script-close-renovate-dashboard-issues.git
 $ npx @octoherd/cli \
   --octoherd-token 0123456789012345678901234567890123456789 \
-  scripts/close-renovate-dashboard-issues/script.js \
+  script-close-renovate-dashboard-issues/script.js \
   "octokit/*"
 ```
 
