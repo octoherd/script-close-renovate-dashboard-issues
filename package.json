@@ -24,10 +24,5 @@
   "bin": {
     "octoherd-script-close-renovate-dashboard-issues": "./cli.js"
   },
-  "repository": "github:octoherd/script-close-renovate-dashboard-issues",
-  "renovate": {
-    "extends": [
-      "github>octoherd/.github"
-    ]
-  }
+  "repository": "github:octoherd/script-close-renovate-dashboard-issues"
 }
