@@ -14,7 +14,8 @@
   },
   "exports": "./index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "bin": {
     "octoherd-script-close-renovate-dashboard-issues": "./cli.js"
